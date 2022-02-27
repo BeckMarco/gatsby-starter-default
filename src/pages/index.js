@@ -7,18 +7,22 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Jacoba van Heemskerck an Herwarth Walden</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
+    <Seo title="Franz Marc an Herwarth Walden, 15. Januar 1914, Sindelsdorf : DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde" />
+
+                <header class="row header">
+                <div class="branding"><a href="../../../index.html">
+                        <h1 class="title"><span class="tighter">DER</span> <span class="tight">ST</span><span class="normal">URM</span></h1>
+                        <h2 class="subtitle">Digitale Quellenedition zur Geschichte der internationalen Avantgarde</h2></a></div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a class="normal" href="../../../projekt.html">Projekt</a></li>
+                        <li><a class="normal" href="../../../edition.html">Edition</a></li>
+                        <li><a class="active" href="../../../quellen.html">Quellen</a></li>
+                        <li><a class="normal" href="../../../register.html">Register</a></li>
+                        <li><a class="normal" href="../../../ressourcen.html">Ressourcen</a></li>
+                    </ul>
+                </nav>
+            </header>
             <main class="row content hyphenate" id="main">
                 <div class="department">
                     <h3><a href="../../../quellen/briefe.html">Abteilung I, Briefe</a></h3>
